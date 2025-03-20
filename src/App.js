@@ -34,7 +34,7 @@ function App() {
         if (seconds === 0 && minutes > 0) {
           setMinutes((prevMinutes) => prevMinutes - 1);
         }
-      }, 10);
+      }, 1000);
     }
 
     return () => clearInterval(timer);
